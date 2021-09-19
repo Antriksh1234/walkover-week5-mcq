@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a new Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/createTest.css">
+</head>
+<body>
+    <h1>Create a test</h1>
+    <form action="post">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="noOfQuestions">Email</label>
+              <input type="text" class="form-control" id="noOfQuestions" placeholder="Number of Questions">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="timeLimit">Number of minutes</label>
+              <input type="number" class="form-control" id="timeLimit" placeholder="Duration (In minutes)">
+            </div>
+          </div>
+          <div class="footer">
+              <span class="finalize-text">Finalize the test you created</span>
+            <button id = "create" class="btn btn-primary">Create Test</button>
+          </div>
+    </form>
+</body>
+</html>
